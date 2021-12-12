@@ -1,4 +1,4 @@
-package test.java.com.uni;
+package com.uni;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -16,7 +16,7 @@ public class PBHummel009 {
 		game.start();
 		assertEquals(game.isRunning(), true);
 	}
-	
+
 	@Test
 	void testSpawn() {
 		GameBoard game = new GameBoard(0, 0);
